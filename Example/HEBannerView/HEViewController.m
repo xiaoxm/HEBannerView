@@ -7,6 +7,7 @@
 //
 
 #import "HEViewController.h"
+#import "HECustomBannerView.h"
 
 @interface HEViewController ()
 
@@ -17,7 +18,22 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
+    CGFloat w = UIScreen.mainScreen.bounds.size.width;
+    CGFloat y = (UIScreen.mainScreen.bounds.size.height - 200 ) * 0.5;
+    
+    HECustomBannerView *bannerV = [[HECustomBannerView alloc] init];
+    [self.view addSubview:bannerV];
+    bannerV.frame = CGRectMake(0, y, w, 200);
+    
+    bannerV.data = @[
+                     [UIImage imageNamed:@"1.jpg"],
+                     @"http://www.ouliu.net/uploadfile/2015/0227/thumb_800_1067_20150227114955859.jpg",
+                     [UIImage imageNamed:@"2.jpg"],
+                     @"http://www.ouliu.net/uploadfile/2017/0804/20170804081300746.jpeg",
+                     [UIImage imageNamed:@"3.jpg"],
+                     ];
+
 }
 
 - (void)didReceiveMemoryWarning

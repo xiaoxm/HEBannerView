@@ -7,7 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		198C3A0DA688A40B3FE2B2A6 /* Pods_HEBannerView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CB84A4881E399C438B46C77 /* Pods_HEBannerView_Tests.framework */; };
+		493436ED21DA285700D0CD7D /* HECustomBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 493436EC21DA285700D0CD7D /* HECustomBannerView.m */; };
+		4934370C21DA2A2400D0CD7D /* 黑.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4934370721DA2A2400D0CD7D /* 黑.jpeg */; };
+		4934370D21DA2A2400D0CD7D /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4934370821DA2A2400D0CD7D /* 2.jpg */; };
+		4934370E21DA2A2400D0CD7D /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4934370921DA2A2400D0CD7D /* 3.jpg */; };
+		4934370F21DA2A2400D0CD7D /* 灰.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4934370A21DA2A2400D0CD7D /* 灰.jpeg */; };
+		4934371021DA2A2400D0CD7D /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4934370B21DA2A2400D0CD7D /* 1.jpg */; };
 		4D1E8ECFF3C04F769968363C /* Pods_HEBannerView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E24AEF7D02058700DDD289EB /* Pods_HEBannerView_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -38,8 +43,15 @@
 
 /* Begin PBXFileReference section */
 		1CB84A4881E399C438B46C77 /* Pods_HEBannerView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HEBannerView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		386F62D2241A484961C22BA3 /* HEBannerView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = HEBannerView.podspec; path = ../HEBannerView.podspec; sourceTree = "<group>"; };
-		5123C75790B36E863223F11A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		386F62D2241A484961C22BA3 /* HEBannerView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HEBannerView.podspec; path = ../HEBannerView.podspec; sourceTree = "<group>"; };
+		493436EB21DA285700D0CD7D /* HECustomBannerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HECustomBannerView.h; sourceTree = "<group>"; };
+		493436EC21DA285700D0CD7D /* HECustomBannerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HECustomBannerView.m; sourceTree = "<group>"; };
+		4934370721DA2A2400D0CD7D /* 黑.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "黑.jpeg"; sourceTree = "<group>"; };
+		4934370821DA2A2400D0CD7D /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		4934370921DA2A2400D0CD7D /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		4934370A21DA2A2400D0CD7D /* 灰.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "灰.jpeg"; sourceTree = "<group>"; };
+		4934370B21DA2A2400D0CD7D /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		5123C75790B36E863223F11A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* HEBannerView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HEBannerView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -62,9 +74,7 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7679C20F88A162E2D5AB8DC0 /* Pods-HEBannerView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HEBannerView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-HEBannerView_Example/Pods-HEBannerView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A7E2E790F87BE97F65C10DBD /* Pods-HEBannerView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HEBannerView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HEBannerView_Tests/Pods-HEBannerView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		AF13973C91BFC7616B894E53 /* Pods-HEBannerView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HEBannerView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HEBannerView_Tests/Pods-HEBannerView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		C9078F1DDA8C29BF73EA6470 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C9078F1DDA8C29BF73EA6470 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		E24AEF7D02058700DDD289EB /* Pods_HEBannerView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HEBannerView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7B9FEB76001A848FC8DBD80 /* Pods-HEBannerView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HEBannerView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HEBannerView_Example/Pods-HEBannerView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -88,13 +98,24 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				198C3A0DA688A40B3FE2B2A6 /* Pods_HEBannerView_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4934370621DA2A2400D0CD7D /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				4934370721DA2A2400D0CD7D /* 黑.jpeg */,
+				4934370821DA2A2400D0CD7D /* 2.jpg */,
+				4934370921DA2A2400D0CD7D /* 3.jpg */,
+				4934370A21DA2A2400D0CD7D /* 灰.jpeg */,
+				4934370B21DA2A2400D0CD7D /* 1.jpg */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -137,6 +158,8 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* HEViewController.h */,
 				6003F5A6195388D20070C39A /* HEViewController.m */,
+				493436EB21DA285700D0CD7D /* HECustomBannerView.h */,
+				493436EC21DA285700D0CD7D /* HECustomBannerView.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -148,6 +171,7 @@
 		6003F594195388D20070C39A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4934370621DA2A2400D0CD7D /* resource */,
 				6003F595195388D20070C39A /* HEBannerView-Info.plist */,
 				6003F596195388D20070C39A /* InfoPlist.strings */,
 				6003F599195388D20070C39A /* main.m */,
@@ -190,8 +214,6 @@
 			children = (
 				E7B9FEB76001A848FC8DBD80 /* Pods-HEBannerView_Example.debug.xcconfig */,
 				7679C20F88A162E2D5AB8DC0 /* Pods-HEBannerView_Example.release.xcconfig */,
-				AF13973C91BFC7616B894E53 /* Pods-HEBannerView_Tests.debug.xcconfig */,
-				A7E2E790F87BE97F65C10DBD /* Pods-HEBannerView_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -222,7 +244,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "HEBannerView_Tests" */;
 			buildPhases = (
-				F5B2D442649351AA533D0F40 /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
@@ -276,9 +297,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4934370D21DA2A2400D0CD7D /* 2.jpg in Resources */,
+				4934370C21DA2A2400D0CD7D /* 黑.jpeg in Resources */,
+				4934370F21DA2A2400D0CD7D /* 灰.jpeg in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				4934371021DA2A2400D0CD7D /* 1.jpg in Resources */,
+				4934370E21DA2A2400D0CD7D /* 3.jpg in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,10 +328,12 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-HEBannerView_Example/Pods-HEBannerView_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/HEBannerView/HEBannerView.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HEBannerView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -330,24 +358,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F5B2D442649351AA533D0F40 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-HEBannerView_Tests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -355,6 +365,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				493436ED21DA285700D0CD7D /* HECustomBannerView.m in Sources */,
 				6003F59E195388D20070C39A /* HEAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* HEViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
@@ -512,7 +523,6 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AF13973C91BFC7616B894E53 /* Pods-HEBannerView_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -536,7 +546,6 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A7E2E790F87BE97F65C10DBD /* Pods-HEBannerView_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (

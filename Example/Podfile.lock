@@ -1,0 +1,26 @@
+PODS:
+  - HEBannerView (0.1.0):
+    - SDWebImage (~> 3.7.0)
+  - SDWebImage (3.7.6):
+    - SDWebImage/Core (= 3.7.6)
+  - SDWebImage/Core (3.7.6)
+
+DEPENDENCIES:
+  - HEBannerView (from `../`)
+  - SDWebImage (~> 3.7.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SDWebImage
+
+EXTERNAL SOURCES:
+  HEBannerView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HEBannerView: 05643a652a55e204c0ededecb10e05a09ae3ae1e
+  SDWebImage: c325cf02c30337336b95beff20a13df489ec0ec9
+
+PODFILE CHECKSUM: 5247bf417fd17d88af373936fed7b164e20bf9c1
+
+COCOAPODS: 1.5.3

@@ -1,0 +1,6 @@
+framework module HEBannerView {
+  umbrella header "HEBannerView-umbrella.h"
+
+  export *
+  module * { export * }
+}
