@@ -56,9 +56,9 @@ static NSString * const kIdentifier = @"identifier";
 
 - (void)setupUI
 {
-    self.flapDuration = 0.3;
-    self.flapWaitingTime = 2;
-
+    self.flapDuration = 2;
+    self.flapWaitingTime = 5;
+    
     self.layout = [[UICollectionViewFlowLayout alloc] init];
     self.layout.scrollDirection = UICollectionViewScrollDirectionHorizontal;
     self.layout.minimumLineSpacing = 0;
@@ -74,7 +74,7 @@ static NSString * const kIdentifier = @"identifier";
     [collectionView registerClass:[self contentViewClass] forCellWithReuseIdentifier:kIdentifier];
     [self addSubview:collectionView];
     self.collectionView = collectionView;
-
+    
     HEBannerPageControl *pageControl = [[HEBannerPageControl alloc] initWithFrame:CGRectZero];
     [self setupPageControl:pageControl];
     [self addSubview:pageControl];
@@ -96,7 +96,7 @@ static NSString * const kIdentifier = @"identifier";
     _data = data;
     [self.collectionView reloadData];
     self.pageControl.numberOfPages = data.count;
-
+    
     //开启定时器
     [self startTimer];
     
@@ -125,9 +125,8 @@ static NSString * const kIdentifier = @"identifier";
     NSIndexPath *indexPath = [self.collectionView indexPathForCell:cell];
     NSInteger row = MIN(indexPath.row + 1, kMaxCount);
     NSIndexPath *nextIndexPath = [NSIndexPath indexPathForRow:row inSection:0];
-    [UIView animateWithDuration:self.flapDuration animations:^{
-        [self.collectionView scrollToItemAtIndexPath:nextIndexPath atScrollPosition:UICollectionViewScrollPositionLeft animated:NO];
-    }];
+    [self.collectionView scrollToItemAtIndexPath:nextIndexPath atScrollPosition:UICollectionViewScrollPositionCenteredHorizontally animated:YES];
+    
 }
 
 - (void)removeFromSuperview
@@ -207,9 +206,9 @@ static NSString * const kIdentifier = @"identifier";
 
 - (Class<HEBannerContentViewDelegate>)contentViewClass
 {
-/**
-    如果这里的HEBannerContentView不满足你的需求，可以遵守HEBannerContentViewDelegate协议，并继承UICollectionViewCell自定义类
- */
+    /**
+     如果这里的HEBannerContentView不满足你的需求，可以遵守HEBannerContentViewDelegate协议，并继承UICollectionViewCell自定义类
+     */
     return [HEBannerContentView class];
 }
 

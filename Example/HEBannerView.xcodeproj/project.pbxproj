@@ -43,7 +43,7 @@
 
 /* Begin PBXFileReference section */
 		1CB84A4881E399C438B46C77 /* Pods_HEBannerView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HEBannerView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		386F62D2241A484961C22BA3 /* HEBannerView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HEBannerView.podspec; path = ../HEBannerView.podspec; sourceTree = "<group>"; };
+		386F62D2241A484961C22BA3 /* HEBannerView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HEBannerView.podspec; path = ../HEBannerView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		493436EB21DA285700D0CD7D /* HECustomBannerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HECustomBannerView.h; sourceTree = "<group>"; };
 		493436EC21DA285700D0CD7D /* HECustomBannerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HECustomBannerView.m; sourceTree = "<group>"; };
 		4934370721DA2A2400D0CD7D /* 黑.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "黑.jpeg"; sourceTree = "<group>"; };
@@ -278,6 +278,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
